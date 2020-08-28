@@ -1,0 +1,16 @@
+// This is a login page that is in desperate need of some UX work.
+// Using principles of modern design, rewrite this login page.
+// Be sure to consider user experience on both desktop and mobile devices.
+
+// You may change any HTML, CSS, or JS that you choose, but you MAY NOT import a CSS
+// library. We want to test your own styling ability! You may take influence from
+// a CSS library, but no copy pasting!
+
+// You may import a font if you think it will benefit the page, but no other
+// external resources are allowed.
+
+// Your solution will be judged using the following criteria:
+// - appearance
+// - design
+// - user experience (is your solution easy to use or hard?)
+// - code quality
