@@ -1,0 +1,71 @@
+<html>
+<head>
+	<link rel="stylesheet" href="./css/stylesheet.css" />
+	<link rel="stylesheet" href="./css/login.css" />
+	
+	<link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
+	
+</head>
+
+<body>
+
+	<div class="background-overlay"></div>
+	
+	<div class="wrapper">
+		<div class="menu-float-right">
+			<!-- making a hamburger menu from scratch is just awful, so I'm going to substitute the hamburger icon on mobile size instead
+				of actually programming the hamburger menu --->
+			<div class="nav">
+				<div class="nav-hamburger">
+					<div></div>
+					<div></div>
+					<div></div>
+				</div>	
+				<ul class="nav-list">
+					<li>
+						<a href="./about-us/">
+							<div>About Us</div>
+						</a>
+					</li>
+					<li>
+						<a href="./overview/">
+							<div>Overview</div>
+						</a>
+					</li>
+					<li>
+						<a href="./client-testimonials/">
+							<div>Testimonials</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>	
+		
+		<div class="clear"></div>	
+	</div>
+
+	<section id="login-bar">
+	
+		<div class="login-container">
+			<img src="./images/logo.png" alt="Logo" />
+			
+			<div class="login-box">
+				<form action="#" method="POST" onsubmit="validation()" name="loginForm" class="login-form">
+					<input placeholder="Username" name="Username" type="text" class="form-input" required />
+					<input placeholder="Password" type="password" preview="true" class="form-input" required />
+						  
+				  <button class="btn login-button">Login</button>
+				  <button class="btn forgot-password-button">I forgot my password</button>
+				</form>
+			</div>		
+		</div>
+
+	</section>
+	
+	<footer>
+		<div>
+			<h4>Copyright 2017</h4>
+		</div>
+	</footer>
+</body>
+</html>
